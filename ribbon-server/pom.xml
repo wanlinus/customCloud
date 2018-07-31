@@ -4,19 +4,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.wanlinus</groupId>
-    <artifactId>config-server</artifactId>
+    <artifactId>ribbon-server</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>config-server</name>
-    <description>Spring Cloud Config Server</description>
+    <name>ribbon-server</name>
+    <description>Spring Cloud Ribbon Component</description>
 
     <parent>
         <groupId>cn.wanlinus</groupId>
         <artifactId>cloud</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
-
 
     <dependencies>
         <dependency>
@@ -25,12 +24,19 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
     </dependencies>
-
 </project>

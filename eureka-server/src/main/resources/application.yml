@@ -1,8 +1,13 @@
+server:
+  port: 8000
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serverUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
 spring:
   application:
     name: eureka-server
-  cloud:
-    config:
-      label: master
-      profile: dev
-      uri: http://127.0.0.1:8888
