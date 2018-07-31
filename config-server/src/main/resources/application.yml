@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wanlinus/CustonConfig
+          search-paths: dev
+          default-label: master
+server:
+  port: 8888

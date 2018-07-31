@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: cloud-service
+  cloud:
+    config:
+      label: master
+      profile: in3
+      uri: http://127.0.0.1:8888
