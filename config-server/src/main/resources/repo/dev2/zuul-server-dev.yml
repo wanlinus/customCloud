@@ -1,0 +1,10 @@
+server:
+  port: 8002
+zuul:
+  routes:
+    api-ribbon:
+      path: /api-ribbon/**
+      serviceId: ribbon-server
+    api-feign:
+      path: /api-feign/**
+      serviceId: feign-server

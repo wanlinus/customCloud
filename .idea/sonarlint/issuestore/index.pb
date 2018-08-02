@@ -1,8 +1,6 @@
 
 Ü
 Vcloud-service/src/test/java/cn/wanlinus/cloudservice/CloudServiceApplicationTests.java,d\a\da8f2862e843cd2bb3a8ffd0ff9e68bb2f4d0fc0
-Ü
-Vconfig-server/src/test/java/cn/wanlinus/configserver/ConfigServerApplicationTests.java,5\6\560995f4e94c47daa5087251edcd79109ac1e1fc
 Å
 Qeureka-server/src/main/java/cn/wanlinus/eurekaserver/EurekaServerApplication.java,0\c\0cfe4a98dab9dafd680732ccf1bbc1f890295e39
 H
@@ -57,3 +55,21 @@ _
 /feign-server/src/main/resources/application.yml,1\1\1129d7e391a7349cf3cad4189495854a0f1928e8
 ~
 Nfeign-server/src/main/java/cn/wanlinus/feignserver/FeignServerApplication.java,1\3\13ac0c9f23158d385364c811cac164fe8d2ea6cc
+\
+,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
+z
+Jfeign-server/src/main/java/cn/wanlinus/feignserver/CommonFeignHystrix.java,e\0\e0e81f6224a5768d7d189e04bdbf2889aff5a8a0
+|
+Lfeign-server/src/main/java/cn/wanlinus/feignserver/CommonFeignInterface.java,6\4\640efb76fce02a5f0e63baecb37f961cead4df27
+w
+Gfeign-server/src/main/java/cn/wanlinus/feignserver/HelloController.java,e\f\efbe0e1a32d566ed6e94dddcde1aad46a68dbc10
+G
+feign-server/.gitignore,d\9\d968d4411c97fd7c68d6abc7403539d8b3506753
+F
+zuul-server/.gitignore,9\3\930a93511d3a3f8c163573e42f5354f97cce923d
+C
+zuul-server/pom.xml,c\e\ce0e7119e059f07c3d04023d3fc7ce1e23bf2a41
+^
+.zuul-server/src/main/resources/application.yml,e\e\ee3d3e886e281b4abee628216a0f094042f64661
+{
+Kzuul-server/src/main/java/cn/wanlinus/zuulserver/ZuulServerApplication.java,5\8\5816d789a807f335b034aec4a636d97af4db01ba

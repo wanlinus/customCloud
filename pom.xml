@@ -21,6 +21,8 @@
         <module>eureka-server</module>
         <module>ribbon-server</module>
         <module>cloud-service</module>
+        <module>feign-server</module>
+        <module>zuul-server</module>
     </modules>
 
     <properties>

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: feign-server
+  cloud:
+    config:
+      profile: dev
+      discovery:
+        enabled: true
+        service-id: config-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8000/eureka

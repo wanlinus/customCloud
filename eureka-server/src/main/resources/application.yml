@@ -8,6 +8,6 @@ eureka:
     fetch-registry: false
     serverUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
-spring:
-  application:
-    name: eureka-server
+  server:
+    #此配置建议只试用开发和测试环境 驱逐下线的服务，间隔,5秒，默认是60
+    eviction-interval-timer-in-ms: 5000
