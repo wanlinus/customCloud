@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ribbon-server
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://127.0.0.1:8888
