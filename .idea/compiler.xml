@@ -11,6 +11,7 @@
         <module name="eureka-server" />
         <module name="feign-server" />
         <module name="ribbon-server" />
+        <module name="zuul-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

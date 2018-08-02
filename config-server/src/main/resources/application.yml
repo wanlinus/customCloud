@@ -1,16 +1,22 @@
-spring:
-  application:
-    name: config-server
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/wanlinus/CustonConfig
-          search-paths: dev2
-          default-label: master
-server:
-  port: 8888
 eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:8000/eureka
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations:
+            classpath:repo/dev/,classpath:/repo/dev2/
+          add-label-locations: false
+#        git:
+#          uri: https://github.com/wanlinus/CustonConfig
+#          search-paths: dev2
+#          default-label: master
+server:
+  port: 8001

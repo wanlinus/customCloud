@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/cloud-service/pom.xml" />
         <option value="$PROJECT_DIR$/ribbon-server/pom.xml" />
         <option value="$PROJECT_DIR$/feign-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-server/pom.xml" />
       </list>
     </option>
   </component>
