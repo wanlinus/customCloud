@@ -9,6 +9,10 @@ spring:
         enabled: true
         service-id: config-server
 eureka:
+  instance:
+    prefer-ip-address: true #注册服务的IP,而不是服务器名称
   client:
     service-url:
       defaultZone: http://127.0.0.1:8000/eureka
+    register-with-eureka: true #向Eureka注册服务
+    fetch-registry: true #拉取注册表的本地副本
